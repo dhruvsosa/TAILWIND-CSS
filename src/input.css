@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .h-style {
+        @apply text-5xl font-extrabold bg-blue-950 text-white text-center hover:text-red-700 transition-all duration-100 max-sm:bg-black max-sm:text-white;
+    }
+}
